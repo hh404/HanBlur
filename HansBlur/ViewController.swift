@@ -23,6 +23,8 @@ class ViewController: UIViewController {
 //        v.blur(blurRadius: 0.7)
 
         let g = GradientView(frame: CGRect(x: 10, y: 100, width: 120, height: 140))
+        g.startColor = UIColor.white.withAlphaComponent(0.8)
+        g.endColor = UIColor.white.withAlphaComponent(0.8)
         g.shadowColor = UIColor.gray
         g.shadowBlur = 17
         g.shadowX = 2
